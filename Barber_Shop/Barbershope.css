@@ -1,0 +1,53 @@
+/* css For Barber Shop Template */
+/* resetting to zero */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* css for navbar */
+.navbar {
+    /* background-color: black;  */
+    justify-content: center;
+    align-items: center;
+}
+.otheritem ul {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.otheritem li {
+    list-style: none;
+    padding: 0vw;
+    margin: 20px 2vw;
+    text-transform: capitalize;
+}
+.otheritem a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.otheritem a:hover {
+    border-radius: 3px;
+    background-color: rgb(172, 162, 150);
+}
+.logo img {
+    height: 12vh;
+    width: 9vw;
+    margin-top: 5px;
+    margin-left: 69px;
+}
+/* adding background image  */
+.firstone {
+    background-image: url(Barber_img/firstbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
