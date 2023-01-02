@@ -51,3 +51,81 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.name-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8ovh;
+    margin-top: 24vh;
+}
+
+h1 {
+    font-size: 7vw;
+    color: yellow;
+}
+h4 {
+    margin-top: 3vh;
+    font-size: 2vw;
+    color: yellowgreen;
+}
+.btn button {
+    padding: 1.5vh 3vw;
+    margin: 4vh 1vw;
+    background-color: rgb(44, 35, 29);
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(179, 174, 174);
+    cursor: pointer;
+}
+.secondone {
+    background-color: rgb(216, 209, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 4vh;
+}
+
+.choose,
+.service,
+.service {
+    font-size: 2.5vw;
+    color: rebeccapurple;
+}
+
+.mainrow {
+    display: flex;
+    margin-top: 7vh;
+    padding: 0 5vw;
+}
+.textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+h3{
+    font-size: 2vw;                 
+    margin-bottom: 2vh;
+}
+p {
+    font-size: 1.5vw;
+    display: inline-block;
+    width: 20vw;
+}
+.picture {
+    background-image: url(Barber_img/choose.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 31vw;
+    margin-left: 15vw;
+    height: 89vh;
+    margin-bottom: 2vh;
+}
