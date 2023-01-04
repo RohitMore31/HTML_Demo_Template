@@ -129,3 +129,132 @@ p {
     height: 89vh;
     margin-bottom: 2vh;
 }
+
+.third-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: rgb(255, 218, 196);
+    width: 100vw;
+    padding-top: 4vh;
+}
+.fourimg {
+    margin-top: 4vh;
+    width: 80vw;
+    /* background-color: red; */
+    /* height: 80vh; */
+    text-align: center;
+}
+.fourimg img {
+    margin: 2vh 1vw;
+    width: 30vw;
+    height: 35vh;
+}
+.fourth-one {
+    background-color:rgb(236, 219, 235);
+    width: 100vw;
+}
+.Testimonial {
+    padding-top: 4vh;
+    text-align: center;
+}
+.allclient {
+    display: flex;
+    justify-content: center;
+}
+.clientone {
+    padding: 4vw;
+}
+h6 {
+    color: rgb(144, 144, 238);
+}
+.shevt {
+    background-color: rgb(218, 228, 236);
+}
+.lastbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 10vw 0 10vw;
+}
+.right li {
+    margin: 3vh 1vw;
+    font-size: 1.5vw;
+    /* display: inline-block; */
+    width: 20vw;
+}
+
+/* for mobile view */
+@media only screen and (max-width:650px){
+    .mainrow {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+
+    .picture {
+        width: 80vw;
+        height: 66vh;
+        margin-left: 0;
+    }
+    .fourimg {
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fourimg img {
+        width: 80vw;
+        height:30vh;
+    }
+    h1{
+        font-size: 13vw;
+    }
+    h2{
+        font-size: 10vw;
+    }
+    h3{
+        font-size: 6.5vw;
+    }
+    h4{
+        font-size: 6vw;
+    }
+    h6{
+        font-size: 3vw;
+    }
+    .allclient {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        font-size: 5vw;
+        display: inline-block;
+        width: 70vw;
+    }
+    .right li, .doual{
+        font-size: 5vw;
+        width: 40vw;
+        margin: 0;
+    }
+    .otheritem a{
+        font-size: 4.5vw;
+    }
+    .logo img {
+        position: absolute;
+        top: 14vh;
+        left: 12vw;
+        width: 38vw;
+    }  
+    .name-tag{
+        margin-top: 0vh;
+    } 
+    .otheritem ul{
+        background-color: black;
+    }
+    .name-tag h1{
+        margin-top: 44vh;
+    }
+
+}
