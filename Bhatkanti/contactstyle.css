@@ -98,3 +98,34 @@
     font-size: 1.2vw;
     width: 40%;
 }
+.add h2{
+    font-size: 3vw;
+    margin: 3vw;
+    text-align: center;
+}
+.fa-solid, .fa-regular{
+    display: inline;
+    font-size: 2.5vw;
+}
+.firstaddbox, .secondtaddbox, .thirdaddbox{
+    display: flex;
+    margin: 3vh 0px;  
+}
+.logolocation, .logonumber, .logomail{
+    text-align: center;
+    margin: auto 1.5vw;
+}
+.locationtext, .numbertext, .mailtext{
+    font-size: 1.5vw;
+}
+.staycon{
+    margin-top: 15vh;
+}
+.stayconlogo{
+    text-align: center;
+}
+.fa-brands{
+    color: brown;
+    margin: 1vw;
+    font-size: 2vw;
+}
