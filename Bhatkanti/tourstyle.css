@@ -1,0 +1,69 @@
+.headbox{
+    box-sizing:content-box;
+    height: 90vh;
+    width: 100vw;
+    background-image: url(imgs/tours.jpg);
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* border-radius: 0px 0px 110px 110px; */
+}
+.title{
+    font-family: 'Rubik Burned', cursive;
+    /* display: flex;
+    flex-direction: column; */
+    color: rgb(255, 255, 255);
+    width: 70vw;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 24vh auto;
+}
+.title h3{
+    font-size: 2vw;
+}
+
+.packet{
+    width: 100vw;
+    background-color: azure;
+    border-radius: 20px;
+}
+.titlepacket {
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    font-size: 2vw;
+    padding: 20px 0px;
+   background-color: azure;
+
+
+}
+.packttype{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.packttype img{
+    width: 25vw;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 1vw;
+}
+h4{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 2vw;
+    margin: 5px 0px;
+}
+li{font-family: 'Indie Flower', cursive;
+    font-size: 1.5vw;
+    margin: 5px 0px;
+}
+ul{
+    margin: 10px 0px;
+    list-style: none;
+}
+.price{
+    background-color: aquamarine;
+    width: 17vw;
+    padding: 6px 5px;
+    margin: 0px auto;
+}
+

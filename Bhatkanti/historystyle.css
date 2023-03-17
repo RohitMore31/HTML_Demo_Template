@@ -1,0 +1,129 @@
+.headbox{
+    box-sizing:content-box;
+    height: 70vh;
+    width: 100vw;
+    background-image: url(imgs/history.jpg);
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* border-radius: 0px 0px 110px 110px; */
+}
+.title{
+    font-family: 'Rubik Burned', cursive;
+    /* display: flex;
+    flex-direction: column; */
+    color: rgb(235, 221, 221);
+    width: 70vw;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 10vh auto;
+}
+.title h3{
+    font-family: 'Kalam', cursive;
+    font-size: 2vw;
+}
+.btn{
+    width: 12vw;
+    margin: 2vw auto;
+    font-size: 1vw;
+    padding: 6px 2vw;
+    border-radius: 30px;
+    background-color: rgb(255, 214, 168);
+}
+.btn:hover {
+cursor: pointer;
+background-color: rgb(250, 207, 157);
+}
+
+/* ____________________________for slider____________________________________________________ */
+
+
+.slide{
+    /* height: 100vh; */
+    width: 100vw;
+    border: 2px solid ;
+    background-color: rgb(10, 10, 10);
+}
+.mainbox{
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    box-shadow: 2px 2px 8px 2px white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10vh auto;
+    height: 75vh;
+    width: 90vw;
+    background-image: url(/imgs/animation/Dabhol_Beach.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    /* animation:romo 60s infinite linear; */
+    animation-name: romo;
+    animation-duration: 160s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    animation-fill-mode: forwards ;
+    animation-timing-function:initial;
+}
+
+@keyframes romo{
+    10%{ background-image: url(/imgs/animation/AJANTA_CAVES.jpg);}
+    20%{ background-image: url(imgs/animation/Beautiful_kokan.jpg);}
+    30%{background-image: url(imgs/animation/magod-falls-ga15b8d589_1920.jpg);}
+    40%{background-image: url(imgs/animation/Mahalaxmi_Temple\,_Kolhapur.jpg);}
+    50%{background-image: url(imgs/animation/pexels-vijit-bagh-5414582.jpg); }
+    60%{background-image: url(imgs/animation/pexels-vijit-bagh-5414583.jpg);}
+    70%{background-image: url(imgs/animation/satyajeet-mazumdar-fCsmYKhiHGo-unsplash.jpg);}
+    80%{background-image: url(imgs/animation/western-ghats.jpg);}
+}
+
+
+.legend{
+    margin: 10vh 0px;
+}
+
+.slidetitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5vw;
+    margin-bottom: 10vh; 
+    color: white;
+    text-align: center;
+}
+
+.legendtitle{
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    font-size: 2.5vw;
+    /* margin-bottom:4vh; */
+}
+.imgbox img{
+    margin: 9vh 0px;
+    width: 15vw;
+    height: 30vh;
+}
+/* .imgbox{
+    margin: 10px;
+    border: 2px solid red;
+    width: 15vw;
+} */
+.outerimgbox{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
